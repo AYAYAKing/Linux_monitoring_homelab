@@ -1,0 +1,23 @@
+services:
+  ubuntu-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ubuntu-web:dev
+    container_name: ubuntu-web
+    stdin_open: true
+    tty: true
+    volumes:
+      - ubuntu-web-data:/home/webuser/storage
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: ubuntu-web-backend
+    ports:
+      - "8000:8000"
+
+volumes:
+  ubuntu-web-data:
+    name: ubuntu-web-data
