@@ -452,19 +452,19 @@ linux-monitoring-homelab/
 
 ### Zabbix Dashboard
 
-![Zabbix Dashboard](screenshots/zabbix-dashboard.png)
+![Zabbix Dashboard](screenshots/zabbix-dashboard.PNG)
 
 ### Linux Host Metrics
 
-![Linux Monitoring](screenshots/latest-data.png)
+![Linux Monitoring](screenshots/latest-data.PNG)
 
 ### HTTP Monitoring
 
-![Web Monitoring](screenshots/web-monitoring.png)
+![Web Monitoring](screenshots/web-monitoring.PNG)
 
 ### Detected Service Failure
 
-![Zabbix Problem](screenshots/problem-detected.png)
+![Zabbix Problem](screenshots/problem-detected.PNG)
 
 ---
 
